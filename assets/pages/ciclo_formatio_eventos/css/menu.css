@@ -1,0 +1,38 @@
+.nav {
+  font: 0.8em arial;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+
+/*para eliminar el viñeta de la lista*/
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+
+/*SEGUNDA  PARTE: MENU	*/
+
+
+/* para darle las características a cada uno de los enlaces que van a ser cada uno de los botones*/
+
+.nav a {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  color: #6a6a6a;
+  font-variant: small-caps;
+  width: 200px;
+  display: block;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.nav a:hover {
+  color: white;
+  background-image: url("../imagenes/encabezado.png");
+}

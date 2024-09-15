@@ -1,0 +1,36 @@
+body {
+  background-color: rgba(3, 50, 68, 0.171);
+  font-family: "arial narrow";
+  font-variant: small-caps;
+}
+
+.title {
+  color: rgb(60, 60, 128);
+  font-family: "arial narrow";
+  font-variant: small-caps;
+}
+
+.paleta {
+  width: 60%;
+  height: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.contenedor {
+  max-width: 1024px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.texto {
+  text-align: center;
+}
+
+.selects {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}

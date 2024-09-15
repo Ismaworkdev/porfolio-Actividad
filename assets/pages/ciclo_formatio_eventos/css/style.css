@@ -1,0 +1,153 @@
+@font-face {
+    font-family: mothership;
+    src: url('../fuentes/Nemesia-regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url("../imagenes/fondoppal.jpg");
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url("../imagenes/encabezado.png");
+}
+
+.header__title {
+    font-size: 2.5em;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0px;
+    word-spacing: 2px;
+    font-variant: small-caps;
+    font-family: tahoma;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    margin: 0px auto;
+    padding: 10px 0px;
+    max-width: 980px;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.nav {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, .09);
+}
+
+.visor {
+    margin: 0px auto;
+    width: 950px;
+    height: 350px;
+    border-radius: 3px;
+    background-image: url("../imagenes/visor4.png");
+    position: relative;
+}
+
+.info {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    font-family: arial;
+    color: #fff;
+    margin: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.info__title {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1 px solid #fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.info__text {
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    border-radius: 2px;
+    line-height: 1.05em;
+}
+
+.form {
+    color: #6a6a6a;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: arial;
+    margin-left: auto;
+}
+
+.input,
+.submit {
+    border-radius: 2px;
+    height: 12px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    border: 1px solid gray;
+    font-size: 0.7rem;
+    margin-right: 5px;
+}
+
+.input {
+    width: 75px;
+}
+
+.submit {
+    height: 15px;
+}
+
+.footer {
+    margin: 10px;
+    text-align: center;
+}
+
+.caja {
+    background-color: rgba(0, 0, 0, .09);
+    border: 1px solid #d9d9d9;
+    width: 270px;
+    font-family: verdana;
+    color: #6a6a6a;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+.caja__title {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.caja__cajapeque {
+    margin: 10px 5px 0px auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    font-size: 0.5em;
+    text-align: left;
+    border-radius: 3px;
+    width: 175px;
+}
+
+.caja__text {
+    margin-bottom: 0.15rem;
+}
